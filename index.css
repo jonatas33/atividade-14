@@ -1,0 +1,69 @@
+ul {
+    display: flex;
+    justify-content: end;/* Para alinhar os itens ao final da página */
+    list-style-type: none;/* Para tirar os marcadores */
+    padding: 16px; /* Para afastar o texto do topo e lado */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav_1 {
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none; /* Para retirar o sublinhado  do texto */
+    color: whitesmoke
+}
+
+.c1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.c1 img {
+    width: 150px;
+    height: 150px;
+    margin: 30px;
+   /*left e top: referência é o canto superior esquerdo; 
+   left e bottom: referência é o canto inferior esquerdo;
+   right e top : referência é o canto superior direito;
+   right e bottom: referência é o canto inferior direito.*/
+    
+}
+
+.c2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_1 {
+    background-color: rgb(50, 16, 16);
+    padding: 2%;
+    
+}
+h1{
+    color: whitesmoke;
+
+    
+}
+
+nav{
+    margin-top: 10px;
+    margin: 50px;
+}
+
+nav a:hover{
+    color: rgb(35, 160, 30);
+}
+
+.general{
+    padding: 0px 5px; /* Para deixar 0px de distancia em cima e embaixo e 50px nas laterais */
+}
+img{
+    
+    width: 1510px;
+    height: 400px;
+   margin-top: 10px;   
+    
+}
